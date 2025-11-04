@@ -27,5 +27,11 @@ This flow helps QA managers move seamlessly from identifying a supplier to track
 3.Vite
 
 
+=>TO RUN THIS LOCALLY
+
+1.npm install
+2.npm run dev
+
+
 =>MAIN PURPOSE
 Built as part of a UX/UI internship assignment to demonstrate understanding of user flow, clarity in interface design, and efficient status tracking for food-safety supplier queries.
