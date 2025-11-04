@@ -1,37 +1,68 @@
-The goal is to provide a clean and intuitive flow to send queries to suppliers  and track their response status without losing communication in email threads.
+"Supplier Query Management UI"
+
+This project helps QA teams in food companies track questions they send to suppliers. Usually these questions get lost in email threads, so the goal here is to make a clear place to send a query and follow its status easily.
+
+Problem Being Solved
+
+1.QA managers often need information from suppliers (like allergen details, certificate dates, safety confirmations).
+2.Many times these get lost in emails, and tracking becomes messy.
+3.This interface gives them one clean screen to manage and follow queries.
+
+What the UI Lets the User Do
+1.View all suppliers and their query status (Pending, Resolved, urgent,In progress)
+2.Raise a new query using a simple and understandable form
+3.Track the status of submitted queries.
+
+User Flow
+
+Select Supplier → Submit Query → View Status
+
+Design Thinking
+
+I tried to keep the interface very straightforward and stress-free for the user.
+
+Key choices:
 
 
-=>User Flow
-1.Select a supplier from the supplier list
-2.Submit a new query through a short form
-3.Track the query status.
-This flow helps QA managers move seamlessly from identifying a supplier to tracking follow-up without confusion.
+1.Clean layout with enough spacing so nothing feels crowded
+
+2.Simple form with only necessary fields to reduce effort
+
+3.Clear status indicators with text + color for easy scanning
+
+4.Consistent styling so the screens feel connected and smooth to navigate
+
+Goal was to make it feel lightweight instead of corporate and overwhelming.
+
+Accessibility Considerations
+
+1.Readable text and clean contrast
+
+2.Form labels are clearly visible
+
+3.Status colors supported with text (helpful for color-blind users)
+
+4.Buttons and clickable areas spaced comfortably
 
 
-=>Key Screens
-1.Supplier List Page – Displays suppliers with real-time query status labels (Pending,urgent,In progress,Resolved)
-2.Raise Query Page – Simple and clean form to submit supplier questions
-3.Query Status Page – Visual status updates to monitor progress.
+🛠️ Tech Stack
 
-
-=>Design Approach
-1.Intuitive  and user-friendly UI
-2.Clear labels, readable text, and clean spacing for accessibility
-3.Status indicators for quick decision-making
-4.Smooth flow with reduced clicks to perform actions
-
-
-=>Tech Stack
 1.React + TypeScript
+
 2.Tailwind CSS
+
 3.Vite
 
 
-=>TO RUN THIS LOCALLY
+I used this stack to keep the UI fast, modern, and easy to build.
+
+
+This can run on localhost by using 
 
 1.npm install
+
 2.npm run dev
 
+ Project Purpose
 
-=>MAIN PURPOSE
-Built as part of a UX/UI internship assignment to demonstrate understanding of user flow, clarity in interface design, and efficient status tracking for food-safety supplier queries.
+This was part of a UX/UI design assignment focused on clarity, simplicity, and good user experience for real-world QA workflows.
